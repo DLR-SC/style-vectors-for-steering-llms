@@ -8,7 +8,7 @@ The code will be published soon.
 
       @InProceedings{konen-etal-2024-style,
       title = "{Style Vectors for Steering Generative Large Language Models}",
-      author = "Konen, Kai and Jentzsch, Sophie and Diallo, Diaoul{\'e} and Sch{\"u}tt, Peer and Bensch, Oliver and El Baff, Roxanne and Opitz, Dominik and Hecking, Tobias",
+      author = "Konen, Kai and Jentzsch, Sophie and Diallo, Diaoul{\'e} and Sch{\"u}tt, Peer and Bensch, Oliver and {El Baff}, Roxanne and Opitz, Dominik and Hecking, Tobias",
       booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
       year = "2024",
       publisher = "Association for Computational Linguistics"
