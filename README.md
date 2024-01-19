@@ -1,6 +1,7 @@
 # Style Vectors for Steering Generative Large Language Models
 
 This is the code for the paper *Style Vectors for Steering Generative Large Language Models* accepted at Findings of the EACL 2024.
+
 Authors: Kai Konen, Sophie Jentzsch, Diaoulé Diallo, Peer Schütt, Oliver Bensch, Roxanne El Baff, Dominik Opitz, Tobias Hecking
 
 The code will be published soon.
