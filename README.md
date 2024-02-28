@@ -51,7 +51,7 @@ They are processed and loaded using [dataset_loader.py](utils/dataset_loader.py)
 
 **Yelp**: We removed duplicates from the dataset, because we wanted steering vectors for as many as possible different target sentences. This is done in the [dataset_loader.py](utils/dataset_loader.py:100)
 
-**GoEmotion**: To base the analyses on a stronger theoretical foundation only 5k samples were used that could unambiguously be mapped to the established six basic emotion categories proposed by Ekman. For this, we load all values and filter the dataframe immediately using the function [``goemo_get_only_ekman``](scripts/analysis/data_prep.py).
+**GoEmotion**: To base the analyses on a stronger theoretical foundation only 5k samples were used that could unambiguously be mapped to the established six basic emotion categories proposed by Ekman. For this, we load all values and filter the dataframe immediately using the function [``goemo_get_only_ekman``](utils/data_prep.py).
 
 
 ## Environment variables
