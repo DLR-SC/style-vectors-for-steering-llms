@@ -21,7 +21,7 @@ Through a series of experiments, we demonstrate the effectiveness of *activation
 
 Steering the LLM with our vectors             |  Getting the vectors from the LLM
 :-------------------------:|:-------------------------:
-<img src="figures/SV_steering_process_2-1.png" alt="Steering Process" height="400"/> | <img src="figures/SV_getting_vecs_2.png" alt="Getting the vectors" height="400"/>
+<img src="figures/SV_steering_process_2-1.png" alt="Steering Process" height="300"/> | <img src="figures/SV_getting_vecs_2.png" alt="Getting the vectors" height="300"/>
 
 ## Installation
 
