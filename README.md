@@ -27,7 +27,6 @@ Steering the LLM with our vectors             |  Getting the vectors from the LL
 
 All required packages can be found in the ```requirements.txt```. It is recommended to set up an anaconda environment with these packages: 
 ```bash
-# conda create --name steering --file requirements.txt
 conda create --name steering python=3.8.8 --channel conda-forge
 conda activate steering
 conda install pip # make sure pip is installed
