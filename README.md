@@ -10,7 +10,7 @@
   </a>
 </p>
 
-This is the code for the paper [*Style Vectors for Steering Generative Large Language Models*](https://arxiv.org/abs/2402.01618) accepted at Findings of the EACL 2024. 
+This is the code for the paper [*Style Vectors for Steering Generative Large Language Models*](https://aclanthology.org/2024.findings-eacl.52/) published at Findings of the EACL 2024. 
 
 Authors: Kai Konen, Sophie Jentzsch, Diaoulé Diallo, Peer Schütt, Oliver Bensch, Roxanne El Baff, Dominik Opitz, and Tobias Hecking
 
@@ -162,10 +162,24 @@ In the case of "all" activations, we don't use all of the vectors for the Yelp R
 
 ## Citation
 
-      @InProceedings{konen-etal-2024-style,
-      title = "{Style Vectors for Steering Generative Large Language Models}",
-      author = "Konen, Kai and Jentzsch, Sophie and Diallo, Diaoul{\'e} and Sch{\"u}tt, Peer and Bensch, Oliver and {El Baff}, Roxanne and Opitz, Dominik and Hecking, Tobias",
-      booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
-      year = "2024",
-      publisher = "Association for Computational Linguistics"
-      }  
+      @inproceedings{konen-etal-2024-style,
+        title = "Style Vectors for Steering Generative Large Language Models",
+        author = {Konen, Kai  and
+          Jentzsch, Sophie  and
+          Diallo, Diaoul{\'e}  and
+          Sch{\"u}tt, Peer  and
+          Bensch, Oliver  and
+          El Baff, Roxanne  and
+          Opitz, Dominik  and
+          Hecking, Tobias},
+        editor = "Graham, Yvette  and
+          Purver, Matthew",
+        booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+        month = mar,
+        year = "2024",
+        address = "St. Julian{'}s, Malta",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2024.findings-eacl.52",
+        pages = "782--802",
+      }
+
