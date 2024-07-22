@@ -25,18 +25,45 @@ Steering the LLM with our vectors             |  Getting the vectors from the LL
 
 ## Installation
 
+
+### With Docker (Preferred)
+
+In the folder `docker` all necessary files can be found. The Dockerfile installs all necessary packages based on the ``requirements.txt``. This Docker is supposed to be used as an dockerized conda environment. Inside the docker your user will be called `dockeruser`. Please make sure that you executed ``chmod -R 777 ./`` on all folders, where you want to make changes, so that the `dockeruser` has write access to them. We explicitly don't use the `root` user!
+
+Furthermore, the docker does not download the repository, but expects you to mount the folder with the repository in `run.sh`:
+
+```bash 
+			--mount type=bind,source=/path/to/repository,target=/repositories/TODO \
+```
+
+```bash
+cd docker
+# build the docker image from the Dockerfile
+./build.sh style_steering_docker # you can name the image however you want
+# start an interactive session 
+./run.sh style_steering_docker
+```
+
+You workflow will then look somewhat similar to this: 
+
+```bash
+docker attach DOCKER_CONTAINER_NAME
+# coding ....
+```
+You should only leave the container by detaching from it, because it will be stopped otherwise! 
+For this press ``Ctrl + P`` followed by ``Ctrl + Q``. This sequence detaches your terminal from the container, leaving the container running in the background. You can then attach to it again.
+
+
+### WITHOUT Docker
+
 All required packages can be found in the ```requirements.txt```. It is recommended to set up an anaconda environment with these packages: 
 ```bash
-conda create --name steering python=3.8.8 --channel conda-forge
+# conda create --name steering --file requirements.txt
+conda create --name steering python=3.10 --channel conda-forge
 conda activate steering
 conda install pip # make sure pip is installed
 pip install -r requirements.txt
-pip install transformers==4.30.0
-conda install conda-forge::python-dotenv
 pip install -e . # install the package itself - see setup.py
-pip install -U accelerate
-pip install seaborn==0.12.2
-pip install openpyxl
 ```
 
 ## Datasets
