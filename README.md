@@ -32,9 +32,11 @@ In the folder `docker` all necessary files can be found. The Dockerfile installs
 
 Furthermore, the docker does not download the repository, but expects you to mount the folder with the repository in `run.sh`:
 
-```bash 
-			--mount type=bind,source=/path/to/repository,target=/repositories/TODO \
+```bash file=run.sh
+--mount type=bind,source=/path/to/repository,target=/repositories/TODO \
 ```
+
+Build & run the docker:
 
 ```bash
 cd docker
